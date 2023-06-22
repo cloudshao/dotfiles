@@ -15,3 +15,5 @@ EDITOR="vim"
 
 # Don't record duplicates in command history
 HISTCONTROL=ignoredups
+HISTSIZE=10000
+HISTFILESIZE=10000
