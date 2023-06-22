@@ -12,5 +12,5 @@ alias cp='cp -i'
 
 alias ..='cd ..'
 
-export EDITOR="vim"
+EDITOR="vim"
 
