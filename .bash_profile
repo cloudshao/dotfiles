@@ -18,7 +18,7 @@ set -o vi
 EDITOR="vim"
 
 # cd searches in paths other than pwd
-CDPATH=$HOME:$HOME/dev
+CDPATH=$HOME:$HOME/dev:..
 
 # Don't record duplicates in command history
 HISTCONTROL=ignoredups
