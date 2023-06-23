@@ -4,6 +4,12 @@ alias ll='ls -l'
 alias la='ls -A'
 alias l='ls -CF'
 alias grep='grep --color'
+# List directory stack from top to bottom with numbers
+alias dirs='dirs -v'
+alias gd=pushd
+alias pd=popd
+# Restore a lost directory to the stack due to accidental cd
+alias slurp='pushd - && pushd
 alias ..='cd ..'
 
 # Prompt to delete
