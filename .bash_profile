@@ -17,6 +17,9 @@ set -o vi
 # Use vim as the editor for some programs like git
 EDITOR="vim"
 
+# cd searches in paths other than pwd
+CDPATH=$HOME:$HOME/dev
+
 # Don't record duplicates in command history
 HISTCONTROL=ignoredups
 HISTSIZE=10000
