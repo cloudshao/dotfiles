@@ -12,7 +12,7 @@ alias dirs='dirs -v'
 alias gd=pushd
 alias pd=popd
 # Restore a lost directory to the stack due to accidental cd
-alias slurp='pushd - && pushd
+alias slurp='pushd - && pushd'
 alias ..='cd ..'
 
 # Prompt to delete
