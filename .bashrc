@@ -14,6 +14,9 @@ alias pd=popd
 # Restore a lost directory to the stack due to accidental cd
 alias slurp='pushd - && pushd'
 alias ..='cd ..'
+# Edit the last file
+alias lastf='ls -Art | tail -n 1'
+alias viml='vim `lastf`'
 
 # Prompt to delete
 alias rm='rm -i'
